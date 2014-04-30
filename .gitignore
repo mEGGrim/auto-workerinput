@@ -8,6 +8,10 @@
 /test/tmp/
 /test/version_tmp/
 /tmp/
+*.exe
+*.exe.*
+*.pdb
+*.au3
 
 ## Specific to RubyMotion:
 .dat*
