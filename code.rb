@@ -2,16 +2,16 @@
 require 'csv'
 require 'date'
 
-# ‹Î‘Óƒf[ƒ^
+# å‹¤æ€ ãƒ‡ãƒ¼ã‚¿
 class WorkData
   attr_reader :callendar, :work_time
   def initialize(row)
     begin
-    #“ú•t
+    #æ—¥ä»˜
     @callendar = Date.parse(row[4]).day
-    #À“­ŠÔ‚ğ”’l‚É•ÏX‚·‚éB15•ª’PˆÊ‚ÉØ‚èÌ‚Äˆ—‚È‚Ç
+    #å®Ÿåƒæ™‚é–“ã‚’æ•°å€¤ã«å¤‰æ›´ã™ã‚‹ã€‚15åˆ†å˜ä½ã«åˆ‡ã‚Šæ¨ã¦å‡¦ç†ãªã©
     @work_time = row[15].split(':')[0].to_i + (row[15].split(':')[1].to_f / 60 * 4).floor * 0.25
-    # ƒp[ƒXƒGƒ‰[‚È‚Ç‚ğˆ¬‚è‚Â‚Ô‚·
+    # ãƒ‘ãƒ¼ã‚¹ã‚¨ãƒ©ãƒ¼ãªã©ã‚’æ¡ã‚Šã¤ã¶ã™
     rescue => ex
       @callendar = nil
     end
@@ -39,29 +39,29 @@ class WorkCalendar < Array
   end
 end
 
-#‘æˆêˆø”‚Ìcsvƒtƒ@ƒCƒ‹‚Ì“Ç‚İ‚İ
+#ç¬¬ä¸€å¼•æ•°ã®csvãƒ•ã‚¡ã‚¤ãƒ«ã®èª­ã¿è¾¼ã¿
 if !ARGV[0]
-  puts "‹Î‘ÓCSV‚ğˆø”‚Éw’è‚µ‚Ä‰º‚³‚¢"
+  puts "å‹¤æ€ CSVã‚’å¼•æ•°ã«æŒ‡å®šã—ã¦ä¸‹ã•ã„"
   exit(1) 
 end
 calendar = WorkCalendar.new(CSV.read(ARGV[0]))
 
 File.open('./run.au3', 'w') do |f|
   f.puts <<EOS
-# ƒNƒŠƒbƒNÀ•W’²¸—p
+# ã‚¯ãƒªãƒƒã‚¯åº§æ¨™èª¿æŸ»ç”¨
 # #include <MsgBoxConstants.au3>
 # Local $aPos = MouseGetPos()
 # MsgBox($MB_SYSTEMMODAL, "Mouse x, y:", $aPos[0] & ", " & $aPos[1])
 
 Func addJob($day, $value)
-	# MouseClick(<ƒ{ƒ^ƒ“>, xÀ•W, yÀ•W, ƒNƒŠƒbƒN‰ñ”)
-	# “ú•t‚ğ“ü—Í
+	# MouseClick(<ãƒœã‚¿ãƒ³>, xåº§æ¨™, yåº§æ¨™, ã‚¯ãƒªãƒƒã‚¯å›æ•°)
+	# æ—¥ä»˜ã‚’å…¥åŠ›
 	MouseClick("left",1600,685,1)
 	Send($day)
-	# ŠÔ‚ğ“ü—Í
+	# æ™‚é–“ã‚’å…¥åŠ›
 	MouseClick("left",1730,685,2)
 	Send($value)
-	# “o˜^
+	# ç™»éŒ²
 	MouseClick("left",1780,685,1)
 EndFunc
 

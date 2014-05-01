@@ -1,27 +1,27 @@
 auto-workerinput
 ================
-# ŠT—v
-H”“ü—Í‚ð‚Å‚«‚é‚¾‚¯Ž©“®‰»‚µ‚Ü‚·B
+# æ¦‚è¦
+å·¥æ•°å…¥åŠ›ã‚’ã§ãã‚‹ã ã‘è‡ªå‹•åŒ–ã—ã¾ã™ã€‚
 
 
-# •K—v‚È‚à‚Ì
+# å¿…è¦ãªã‚‚ã®
 1. ruby
 1. auto it (http://www.autoitscript.com/site/autoit/)
 
-# ‘O’ñ
- * –ˆ“úA1“ú’†“¯‚¶‹Æ–±‚¾‚¯‚â‚Á‚Ä‚é‚Ì‚ª‘O’ñ‚Å‚·B
- * ‰æ–Ê‚ÌƒTƒCƒY‚É‚æ‚Á‚ÄƒXƒNƒŠƒvƒg‚ÌC³‚ª•K—v‚Å‚·Bcode.rb‚ð“K‹XC³‚µ‚Ä‚­‚¾‚³‚¢B
+# å‰æ
+ * æ¯Žæ—¥ã€1æ—¥ä¸­åŒã˜æ¥­å‹™ã ã‘ã‚„ã£ã¦ã‚‹ã®ãŒå‰æã§ã™ã€‚
+ * ç”»é¢ã®ã‚µã‚¤ã‚ºã«ã‚ˆã£ã¦ã‚¹ã‚¯ãƒªãƒ—ãƒˆã®ä¿®æ­£ãŒå¿…è¦ã§ã™ã€‚code.rbã‚’é©å®œä¿®æ­£ã—ã¦ãã ã•ã„ã€‚
 
-# Žè‡
-1. “ü—Íƒf[ƒ^‚Ì€”õAì¬
- 1. ‚«‚ñ‚Ì‚·‚¯‚©‚ço‹Î•ë‚ÌCSV‚ðƒ_ƒEƒ“ƒ[ƒh
+# æ‰‹é †
+1. å…¥åŠ›ãƒ‡ãƒ¼ã‚¿ã®æº–å‚™ã€ä½œæˆ
+ 1. ãã‚“ã®ã™ã‘ã‹ã‚‰å‡ºå‹¤ç°¿ã®CSVã‚’ãƒ€ã‚¦ãƒ³ãƒ­ãƒ¼ãƒ‰
 
-1. 1stWorkerInput‚ð‹N“®
- 1. ‹N“®‚µ‚½‚çH”“ü—Í‰æ–Ê‚ðŠJ‚­
- 1. ƒvƒƒWƒFƒNƒg‚Æƒ^ƒXƒN‚ð‘I‘ð
- 1. 1stWorkerInput‚Íƒvƒ‰ƒCƒ}ƒŠƒfƒBƒXƒvƒŒƒC‚ÅÅ‘å‰»‚µ‚Ä‚¨‚­
+1. 1stWorkerInputã‚’èµ·å‹•
+ 1. èµ·å‹•ã—ãŸã‚‰å·¥æ•°å…¥åŠ›ç”»é¢ã‚’é–‹ã
+ 1. ãƒ—ãƒ­ã‚¸ã‚§ã‚¯ãƒˆã¨ã‚¿ã‚¹ã‚¯ã‚’é¸æŠž
+ 1. 1stWorkerInputã¯ãƒ—ãƒ©ã‚¤ãƒžãƒªãƒ‡ã‚£ã‚¹ãƒ—ãƒ¬ã‚¤ã§æœ€å¤§åŒ–ã—ã¦ãŠã
 
-1. Ž©“®ŽÀsƒXƒNƒŠƒvƒg‚Ì¶¬‚Æautoit‚Ì¶¬
+1. è‡ªå‹•å®Ÿè¡Œã‚¹ã‚¯ãƒªãƒ—ãƒˆã®ç”Ÿæˆã¨autoitã®ç”Ÿæˆ
   1. $ ruby code.rb
 
-**code.rb‚ðŽÀs‚·‚é‚Æautoit‚àŽÀs‚³‚ê‚Ü‚·BŽ©“®ŽÀs‚ª•s—v‚Èê‡‚Ícode.rb‚ÌÅŒã‚Ìs‚ðƒRƒƒ“ƒgƒAƒEƒg‚µ‚Ä‚­‚¾‚³‚¢B**
+**code.rbã‚’å®Ÿè¡Œã™ã‚‹ã¨autoitã‚‚å®Ÿè¡Œã•ã‚Œã¾ã™ã€‚è‡ªå‹•å®Ÿè¡ŒãŒä¸è¦ãªå ´åˆã¯code.rbã®æœ€å¾Œã®è¡Œã‚’ã‚³ãƒ¡ãƒ³ãƒˆã‚¢ã‚¦ãƒˆã—ã¦ãã ã•ã„ã€‚**
